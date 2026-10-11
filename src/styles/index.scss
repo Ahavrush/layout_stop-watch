@@ -84,6 +84,7 @@ body {
       width: $minute-hand-width;
       height: $minute-hand-length;
       background-color: $color-minute;
+      margin-left: -#{$minute-hand-width / 2};
       animation: rotate 3600s steps(60) infinite;
     }
   }
